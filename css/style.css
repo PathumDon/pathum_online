@@ -261,7 +261,7 @@ button-l:hover{
     
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
 
     .header{
         background-color: var(--light-color);
