@@ -302,4 +302,7 @@ button-l:hover{
         text-align: center;
     }    
 
+    .project-on-your-mind-section img{
+        display: none;
+    }
   }
