@@ -281,15 +281,18 @@ button-l:hover{
     fill:var(--primary-color)
   }
 
-  @media (max-width: 720px) {
+  @media only screen and (max-width: 576px) {
 
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-size: 14px;
-        }
+    }
     
+    .container{
+        max-width: 90%;
+    }
     .header{
         background-color: var(--light-color);
 
