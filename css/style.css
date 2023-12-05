@@ -173,7 +173,7 @@ button-l:hover{
 }
 .projects-row{
 
-    width: 70%;
+    width: 65%;
     margin: auto;
     height: 8.8rem;
     background-color: #fff;
@@ -194,14 +194,13 @@ button-l:hover{
 }
 
 .edu-icon{
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.35rem;
+    width: 1.35rem;
     border: solid 1px var(--primary-color);
     border-radius: 50%;
-    padding: 10%;
-
-
+    padding: 0.085rem;
 }
+
 .edu-icon-inside{
     height: 1rem;
     width: 1rem;
@@ -237,6 +236,16 @@ button-l:hover{
     background-color: var(--primary-color);
 }
 
+.project-item{
+    
+    border-right: solid 6px var(--light-color);
+}
+
+.project-item:nth-last-child(1){
+    
+    border-right: none;
+}
+
 .testimonial {
     padding: 1.2rem;
     margin: 1.2rem 0;
@@ -261,8 +270,26 @@ button-l:hover{
     
   }
 
+  .contact-me-section{
+    padding-top: 3rem;
+    background-color: var(--light-color);
+  }
+  .footer-section{
+    background-color: var(--secondary-color);
+  }
+  .footer-section svg{
+    fill:var(--primary-color)
+  }
+
   @media (max-width: 720px) {
 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 14px;
+        }
+    
     .header{
         background-color: var(--light-color);
 
@@ -272,11 +299,13 @@ button-l:hover{
     .hero-img{
         display: none;
     }
+
+
     .row-textzz{
         margin-bottom: 10rem;
     }
     .projects-row{
-        width: 80%;
+        width: 100%;
         height: 100%;
         background-color: #fff;
         border-radius: 0;
@@ -298,11 +327,17 @@ button-l:hover{
     
     }
 
-    .about-me-section h1, h5{
+    .about-me-section h5{
         text-align: center;
-    }    
+    }
+    
+    .about-me-section h1{
+        text-align: center;
+    }  
 
     .project-on-your-mind-section img{
         display: none;
     }
+
+
   }
